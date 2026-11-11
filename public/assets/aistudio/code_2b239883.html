@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-error-container":"#93000a","surface-container":"#f0ede9","on-surface-variant":"#50443d","inverse-primary":"#efbc9b","inverse-on-surface":"#f3f0eb","tertiary-fixed":"#efdfd8","on-primary-fixed-variant":"#623f25","secondary-container":"#fecf9d","primary":"#42240d","on-background":"#1c1c19","on-secondary-fixed":"#2b1700","tertiary-container":"#4a403b","surface-dim":"#dcdad5","outline":"#82746c","on-tertiary":"#ffffff","on-surface":"#1c1c19","inverse-surface":"#31302d","on-tertiary-fixed-variant":"#4f4540","surface-container-high":"#ebe8e3","on-tertiary-fixed":"#221a16","secondary-fixed":"#ffddba","on-secondary-container":"#79562e","surface-bright":"#fcf9f4","surface-container-lowest":"#ffffff","on-secondary-fixed-variant":"#5f401a","tertiary-fixed-dim":"#d2c4bd","outline-variant":"#d4c3b9","surface":"#fcf9f4","primary-fixed":"#ffdcc6","on-tertiary-container":"#baaca5","secondary-fixed-dim":"#ecbe8e","secondary":"#7a582f","primary-fixed-dim":"#efbc9b","primary-container":"#5c3a21","on-secondary":"#ffffff","surface-variant":"#e5e2dd","background":"#fcf9f4","error":"#ba1a1a","surface-container-highest":"#e5e2dd","surface-tint":"#7c563b","on-error":"#ffffff","error-container":"#ffdad6","on-primary-container":"#d4a484","on-primary-fixed":"#2f1502","on-primary":"#ffffff","tertiary":"#332a26","surface-container-low":"#f6f3ee"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"gutter-mobile":"0.75rem","space-md":"1rem","space-xl":"3rem","space-lg":"1.75rem","gutter":"1.5rem","margin":"4rem","margin-mobile":"1.25rem","space-xs":"0.25rem","space-sm":"0.5rem"},"fontFamily":{"label-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"subheading-editorial":["Playfair Display"],"headline-xl":["Playfair Display"],"headline-xl-mobile":["Playfair Display"],"headline-lg":["Playfair Display"],"headline-md":["Playfair Display"],"headline-sm":["Playfair Display"],"body-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Playfair Display"]},"fontSize":{"label-md":["11px",{"lineHeight":"16px","letterSpacing":"0.14em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"label-sm":["10px",{"lineHeight":"14px","letterSpacing":"0.16em","fontWeight":"600"}],"subheading-editorial":["20px",{"lineHeight":"28px","letterSpacing":"0.02em","fontWeight":"400"}],"headline-xl":["56px",{"lineHeight":"68px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-xl-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.005em","fontWeight":"600"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"0em","fontWeight":"600"}],"headline-md":["28px",{"lineHeight":"36px","fontWeight":"500"}],"headline-sm":["22px",{"lineHeight":"30px","fontWeight":"500"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"label-lg":["13px",{"lineHeight":"18px","letterSpacing":"0.12em","fontWeight":"600"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"600"}]}}}};</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-screen w-72 bg-surface-container-low z-50 flex flex-col shadow-[0_1px_8px_rgba(92,58,33,0.06)]"><div class="h-20 flex items-center gap-space-sm px-gutter bg-surface-container-low"><div class="w-9 h-9 rounded-xl bg-primary-container flex items-center justify-center text-on-primary shadow-sm"><span class="material-symbols-outlined text-lg">diamond</span></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-wider text-primary uppercase font-semibold">SAHARISH</span><span class="font-label-sm text-label-sm tracking-widest text-on-surface-variant uppercase">Luxury Pret &amp; Couture</span></div></div><div class="px-gutter py-space-sm"><div class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-surface-container"><span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span><span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Couture Atelier Studio</span></div></div><div class="flex-1 overflow-y-auto px-gutter py-space-sm space-y-space-md"><div class="space-y-space-xs"><p class="px-space-sm font-label-sm text-label-sm uppercase text-on-surface-variant">Catalog &amp; Atelier</p><nav class="space-y-space-xs" data-active-classes="bg-primary-container text-on-primary font-bold rounded-xl"><a aria-current="page" class="flex items-center gap-space-sm px-space-sm py-space-xs uppercase transition-all bg-primary-container text-on-primary font-bold rounded-xl" data-path="all-products" href="#"><span class="material-symbols-outlined text-lg">apparel</span><span>All Products</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-xl font-label-lg text-label-lg uppercase text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="add-product" href="#"><span class="material-symbols-outlined text-lg">add_circle</span><span>Add Product</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-xl font-label-lg text-label-lg uppercase text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="inventory" href="#"><span class="material-symbols-outlined text-lg">inventory_2</span><span>Inventory &amp; Swatches</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-xl font-label-lg text-label-lg uppercase text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="collections" href="#"><span class="material-symbols-outlined text-lg">auto_awesome</span><span>Collections &amp; Capsules</span></a></nav></div><div class="space-y-space-xs"><p class="px-space-sm font-label-sm text-label-sm uppercase text-on-surface-variant">Fulfillment &amp; Clients</p><nav class="space-y-space-xs" data-active-classes="bg-primary-container text-on-primary font-bold rounded-xl"><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-xl font-label-lg text-label-lg uppercase text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="orders-and-shipments" href="#"><span class="material-symbols-outlined text-lg">local_shipping</span><span>Orders &amp; Shipments</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-xl font-label-lg text-label-lg uppercase text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="customers" href="#"><span class="material-symbols-outlined text-lg">group</span><span>VIP Clients</span></a></nav></div><div class="space-y-space-xs"><p class="px-space-sm font-label-sm text-label-sm uppercase text-on-surface-variant">Curated Presence</p><nav class="space-y-space-xs" data-active-classes="bg-primary-container text-on-primary font-bold rounded-xl"><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-xl font-label-lg text-label-lg uppercase text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="homepage-and-banners" href="#"><span class="material-symbols-outlined text-lg">view_quilt</span><span>Homepage &amp; Banners</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-xl font-label-lg text-label-lg uppercase text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="store-settings" href="#"><span class="material-symbols-outlined text-lg">settings</span><span>Store Settings</span></a></nav></div></div><div class="p-gutter bg-surface-container"><div class="flex items-center justify-between p-space-sm rounded-xl bg-surface-container-lowest shadow-[0_1px_8px_rgba(92,58,33,0.04)]"><div class="flex flex-col"><span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Concierge Desk</span><span class="font-body-sm text-body-sm text-primary font-medium">Online</span></div><span class="material-symbols-outlined text-secondary">support_agent</span></div></div></aside><div class="pl-72 min-h-screen flex flex-col"><header class="fixed top-0 left-72 right-0 h-20 bg-surface/85 backdrop-blur-xl z-40 shadow-[0_1px_8px_rgba(92,58,33,0.04)] px-gutter flex items-center justify-between"><div class="flex items-center gap-space-md flex-1 max-w-xl"><div class="relative w-full"><span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-lg">search</span><input class="w-full bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/70 pl-10 pr-space-md py-space-xs rounded-xl font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary" placeholder="Search pret articles, orders, or haute couture serials..." type="text"/></div><div class="hidden md:flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-secondary-fixed/50 whitespace-nowrap"><span class="w-2 h-2 rounded-full bg-secondary"></span><span class="font-label-sm text-label-sm text-on-secondary-fixed uppercase tracking-wider font-semibold">Live Store</span></div></div><div class="flex items-center gap-space-md"><a class="hidden sm:flex items-center gap-space-xs px-space-md py-space-xs rounded-xl bg-surface-container-low text-primary font-label-sm text-label-sm uppercase tracking-wider hover:bg-surface-container transition-colors" href="#"><span class="material-symbols-outlined text-base">storefront</span><span>View Boutique</span></a><button class="relative p-space-xs rounded-full text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-xl">notifications</span><span class="absolute top-1 right-1 w-2 h-2 rounded-full bg-primary-container"></span></button><div class="flex items-center gap-space-sm pl-space-xs"><div class="text-right hidden sm:flex flex-col"><span class="font-label-lg text-label-lg uppercase tracking-wider text-primary font-semibold">Maha Al-Saharish</span><span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Head Curator</span></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/ALJJyrBNwPRv15CQr8qKxoTiaN-MxRrf1N8XxndZPmJc7lvSsjieV5CAfUzYyeNJ1RFP072_Xh0dM7uDii6Ic6ENJzsfGNu7zFsjLIF1R0X5AStc7SvhfVJyDOBGeXoRKNM6TJiT9yBtVetG_1xQmCj26pmTuYqM-I2zTJqLpGpT3fhecc_PoRs_5uivpkkUhF-L8HqrLaG61Hn9FW3R-KV4WRu0wn5XpFU3fXWBCC2QzkticSR_iLxxbu8IURE"/></div></div></header><main class="flex-1 pt-20 w-full px-gutter bg-background"><div class="flex flex-col w-full pb-16 space-y-space-lg">
+<!-- Top Context & Editorial Action Banner -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md pt-4">
+<div class="space-y-1">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Atelier Catalog Management</span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">SS 2025 Volume I</span>
+</div>
+<h1 class="font-headline-md text-headline-md text-primary tracking-tight">Products &amp; Atelier Inventory</h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-2xl">
+        Manage ladies' pret, festive couture, and unstitched artisanal silhouettes. Monitor SKU allocation, fabric details, and real-time boutique stock.
+      </p>
+</div>
+<!-- Atelier Action Controls -->
+<div class="flex items-center gap-space-sm flex-wrap">
+<button class="flex items-center gap-space-xs px-space-md py-space-xs rounded-xl bg-surface-container-high hover:bg-surface-variant text-primary font-label-md text-label-md uppercase tracking-wider shadow-sm transition-all">
+<span class="material-symbols-outlined text-base">file_download</span>
+<span>Export CSV</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md py-space-xs rounded-xl bg-surface-container-high hover:bg-surface-variant text-primary font-label-md text-label-md uppercase tracking-wider shadow-sm transition-all">
+<span class="material-symbols-outlined text-base">tune</span>
+<span>Bulk Edit</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md py-space-xs rounded-xl bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider shadow-md hover:bg-primary transition-all">
+<span class="material-symbols-outlined text-base">add</span>
+<span>+ Add New Product</span>
+</button>
+</div>
+</div>
+<!-- Key Metrics Bento Row -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Metric 1: Total Active Designs -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-[0_8px_24px_-4px_rgba(92,58,33,0.05)] relative overflow-hidden flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant tracking-wider">Total Active Catalog</span>
+<div class="w-8 h-8 rounded-full bg-secondary-fixed/50 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-base">styler</span>
+</div>
+</div>
+<div class="mt-4 flex items-baseline justify-between">
+<div>
+<span class="font-headline-md text-headline-md font-semibold text-primary">18</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant ml-1">Silhouettes</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">+2 Pre-launch</span>
+</div>
+<div class="w-full bg-surface-container h-1 rounded-full mt-3 overflow-hidden">
+<div class="bg-primary-container h-full w-[85%] rounded-full"></div>
+</div>
+</div>
+<!-- Metric 2: Ready to Ship Stock -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-[0_8px_24px_-4px_rgba(92,58,33,0.05)] flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant tracking-wider">In Stock &amp; Ready to Ship</span>
+<div class="w-8 h-8 rounded-full bg-secondary-fixed/50 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-base">check_circle</span>
+</div>
+</div>
+<div class="mt-4 flex items-baseline justify-between">
+<div>
+<span class="font-headline-md text-headline-md font-semibold text-primary">142</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant ml-1">Units Total</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Across XS-XL</span>
+</div>
+<div class="w-full bg-surface-container h-1 rounded-full mt-3 overflow-hidden">
+<div class="bg-secondary h-full w-[72%] rounded-full"></div>
+</div>
+</div>
+<!-- Metric 3: Low Stock Alerts -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-[0_8px_24px_-4px_rgba(92,58,33,0.05)] flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant tracking-wider">Low Stock Watchlist</span>
+<div class="w-8 h-8 rounded-full bg-error-container/60 flex items-center justify-center text-error">
+<span class="material-symbols-outlined text-base">notifications_active</span>
+</div>
+</div>
+<div class="mt-4 flex items-baseline justify-between">
+<div>
+<span class="font-headline-md text-headline-md font-semibold text-error">3</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant ml-1">Silhouettes</span>
+</div>
+<span class="font-label-sm text-label-sm text-error font-medium">Critical restock</span>
+</div>
+<div class="flex items-center gap-1.5 mt-3 truncate">
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Mehrunissa, Sapphire &amp; Lavender</span>
+</div>
+</div>
+<!-- Metric 4: Out of Stock / Archive -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-[0_8px_24px_-4px_rgba(92,58,33,0.05)] flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant tracking-wider">Vault / Archived</span>
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined text-base">inventory</span>
+</div>
+</div>
+<div class="mt-4 flex items-baseline justify-between">
+<div>
+<span class="font-headline-md text-headline-md font-semibold text-on-surface-variant">1</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant ml-1">Retired</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Seasonal Wrap</span>
+</div>
+<div class="w-full bg-surface-container h-1 rounded-full mt-3 overflow-hidden">
+<div class="bg-outline h-full w-[8%] rounded-full"></div>
+</div>
+</div>
+</div>
+<!-- Editorial Filter & Search Bar -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-[0_4px_16px_rgba(92,58,33,0.04)] space-y-space-sm">
+<div class="flex flex-col lg:flex-row gap-space-sm items-stretch lg:items-center justify-between">
+<!-- Search SKU or Product Name -->
+<div class="relative flex-1 max-w-md">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-base">filter_list</span>
+<input class="w-full bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/70 pl-9 pr-space-md py-space-xs rounded-xl font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary-container" id="productSearchInput" placeholder="Filter by SKU or Couture name..." type="text"/>
+</div>
+<!-- Dropdown Selectors -->
+<div class="flex items-center gap-space-xs flex-wrap">
+<!-- Collection Dropdown -->
+<div class="relative">
+<select class="appearance-none bg-surface-container-low text-primary font-label-sm text-label-sm uppercase pl-3 pr-8 py-2 rounded-xl focus:outline-none cursor-pointer">
+<option>All Collections</option>
+<option>Festive Luxury Pret</option>
+<option>Pastel Lawn &amp; Organza</option>
+<option>Royal Monochromes</option>
+<option>Daily Luxury Lawn</option>
+<option>Chikankari &amp; Cutwork</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none text-xs text-on-surface-variant">expand_more</span>
+</div>
+<!-- Fabric Dropdown -->
+<div class="relative">
+<select class="appearance-none bg-surface-container-low text-primary font-label-sm text-label-sm uppercase pl-3 pr-8 py-2 rounded-xl focus:outline-none cursor-pointer">
+<option>All Fabrics</option>
+<option>Raw Silk</option>
+<option>Pure Organza</option>
+<option>Supima Lawn</option>
+<option>Hand Jacquard</option>
+<option>Chanderi Silk</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none text-xs text-on-surface-variant">expand_more</span>
+</div>
+<!-- Stock Status Dropdown -->
+<div class="relative">
+<select class="appearance-none bg-surface-container-low text-primary font-label-sm text-label-sm uppercase pl-3 pr-8 py-2 rounded-xl focus:outline-none cursor-pointer">
+<option>Stock: All Statuses</option>
+<option>In Stock</option>
+<option>Low Stock (&lt;5)</option>
+<option>Unstitched Only</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none text-xs text-on-surface-variant">expand_more</span>
+</div>
+<!-- Sort By Dropdown -->
+<div class="relative">
+<select class="appearance-none bg-surface-container-low text-primary font-label-sm text-label-sm uppercase pl-3 pr-8 py-2 rounded-xl focus:outline-none cursor-pointer">
+<option>Sort: Recently Created</option>
+<option>Price: High to Low</option>
+<option>Price: Low to High</option>
+<option>Inventory: Lowest First</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none text-xs text-on-surface-variant">expand_more</span>
+</div>
+<!-- Reset Button -->
+<button class="p-2 rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="Reset Filters">
+<span class="material-symbols-outlined text-base">restart_alt</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Luxury Pret Catalog Table -->
+<div class="rounded-xl bg-surface-container-lowest shadow-[0_8px_32px_-4px_rgba(92,58,33,0.06)] overflow-hidden">
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">
+<th class="py-space-sm pl-space-md pr-space-xs w-10">
+<input class="w-4 h-4 rounded accent-primary-container cursor-pointer" id="selectAllCheckbox" type="checkbox"/>
+</th>
+<th class="py-space-sm px-space-xs w-16">Preview</th>
+<th class="py-space-sm px-space-md">Design &amp; SKU</th>
+<th class="py-space-sm px-space-md">Collection &amp; Fabric</th>
+<th class="py-space-sm px-space-md">Retail Price</th>
+<th class="py-space-sm px-space-md">Atelier Stock Breakdown</th>
+<th class="py-space-sm px-space-md">Status</th>
+<th class="py-space-sm pr-space-md text-right">Actions</th>
+</tr>
+</thead>
+<tbody class="divide-y-0 text-on-surface font-body-sm text-body-sm" id="catalogTableBody">
+<!-- Row 1: Mehrunissa Ivory Heavy Embroidered -->
+<tr class="hover:bg-surface-container-low/60 transition-colors group">
+<td class="py- space-sm pl-space-md pr-space-xs align-middle">
+<input class="product-checkbox w-4 h-4 rounded accent-primary-container cursor-pointer" type="checkbox"/>
+</td>
+<td class="py-3 px-space-xs align-middle">
+<div class="w-12 h-16 rounded-xl overflow-hidden shadow-sm bg-surface-container flex-shrink-0">
+<img class="w-full h-full object-cover object-top transition-transform group-hover:scale-105 duration-300" data-alt="Pakistani couture model in high neck embroidered ivory cream pret tunic with ornate floral embroidery and traditional print dupatta, architectural Mughal arches backdrop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPOGPH0HKTp155F8Cws77VGGMwQQtBh-7b4ZLmI2NlfwuRpQPweyxtnJPRpBPnruz9bmBveiFYHgRNw_sVIAM09JT4GO2Gw8ntjDi3qfi2lN0WJOZLEk4rKMmQfokCTnks0bUAes6vQcdbMnA5Vay8AjA1U8X4G8SirjRnImAXi8YX---rvAR9Me2_B9xVXksBfMbCjhVzh-y4sedD7zq-5Cr8tit7zfw_48ll123z"/>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md font-semibold text-primary leading-snug group-hover:text-primary-container transition-colors">
+                  Mehrunissa Ivory Heavy Embroidered 3-Piece Pret
+                </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase mt-0.5 tracking-wider">SKU: SAH-2025-IV05</span>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm font-medium text-primary">Festive Luxury Pret</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Pure Chanderi &amp; Organza Dupatta</span>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<span class="font-label-lg text-label-lg font-semibold text-primary">PKR 18,500</span>
+</td>
+<td class="py-3 px-space-md align-middle">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-1.5">
+<span class="font-body-sm text-body-sm font-semibold text-primary">24 Units</span>
+<span class="font-label-sm text-label-sm text-secondary font-medium">(Balanced)</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">XS:4</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">S:8</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">M:6</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">L:4</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">XL:2</span>
+</div>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-secondary-fixed/60 text-on-secondary-fixed font-label-sm text-label-sm uppercase font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                In Stock
+              </span>
+</td>
+<td class="py-3 pr-space-md text-right align-middle">
+<div class="flex items-center justify-end gap-1">
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="Edit Silhouette">
+<span class="material-symbols-outlined text-base">edit</span>
+</button>
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="Duplicate SKU">
+<span class="material-symbols-outlined text-base">content_copy</span>
+</button>
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="View Live Atelier Page">
+<span class="material-symbols-outlined text-base">visibility</span>
+</button>
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-error transition-colors" title="Archive">
+<span class="material-symbols-outlined text-base">archive</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 2: Zeenat Mustard Silk Set -->
+<tr class="hover:bg-surface-container-low/60 transition-colors group bg-surface-container-lowest">
+<td class="py-space-sm pl-space-md pr-space-xs align-middle">
+<input class="product-checkbox w-4 h-4 rounded accent-primary-container cursor-pointer" type="checkbox"/>
+</td>
+<td class="py-3 px-space-xs align-middle">
+<div class="w-12 h-16 rounded-xl overflow-hidden shadow-sm bg-surface-container flex-shrink-0">
+<img class="w-full h-full object-cover object-top transition-transform group-hover:scale-105 duration-300" data-alt="South Asian fashion model in vibrant warm mustard yellow embroidered kurta ensemble with matching printed silk pants and dupatta, sunlit palace courtyard background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOD3yu98bYSOGY37hPK2UBp2jbe6ERVRTM5oUB059RKf38K2MyTwsk6IY3T0V_JDXAEOhN3zMi20moUCr058jesT7zKCimTwXINwCz6YXn0dW28aVAufNyiq7VSL6oa9e9PFR-CNMNVorD48Vw0dZDOaTdTNFdv5uhuqjB55AFC35iLNLjM6r57Lpg-lCNCiQmQiORV6HvADV7lDIqOP3nQMbqPBgesNoxmKHQiUcr"/>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md font-semibold text-primary leading-snug group-hover:text-primary-container transition-colors">
+                  Zeenat Mustard Silk Set
+                </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase mt-0.5 tracking-wider">SKU: SAH-2025-MST02</span>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm font-medium text-primary">Festive Luxury Pret</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Lustrous Raw Silk 3-Pc</span>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<span class="font-label-lg text-label-lg font-semibold text-primary">PKR 11,500</span>
+</td>
+<td class="py-3 px-space-md align-middle">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-1.5">
+<span class="font-body-sm text-body-sm font-semibold text-primary">18 Units</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">XS:2</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">S:6</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">M:5</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">L:3</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">XL:2</span>
+</div>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-secondary-fixed/60 text-on-secondary-fixed font-label-sm text-label-sm uppercase font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                In Stock
+              </span>
+</td>
+<td class="py-3 pr-space-md text-right align-middle">
+<div class="flex items-center justify-end gap-1">
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="Edit Silhouette">
+<span class="material-symbols-outlined text-base">edit</span>
+</button>
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="Duplicate SKU">
+<span class="material-symbols-outlined text-base">content_copy</span>
+</button>
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="View Live Atelier Page">
+<span class="material-symbols-outlined text-base">visibility</span>
+</button>
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-error transition-colors" title="Archive">
+<span class="material-symbols-outlined text-base">archive</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 3: Lavender Dusk Ombre Formals (Low Stock) -->
+<tr class="hover:bg-surface-container-low/60 transition-colors group bg-error-container/10">
+<td class="py-space-sm pl-space-md pr-space-xs align-middle">
+<input class="product-checkbox w-4 h-4 rounded accent-primary-container cursor-pointer" type="checkbox"/>
+</td>
+<td class="py-3 px-space-xs align-middle">
+<div class="w-12 h-16 rounded-xl overflow-hidden shadow-sm bg-surface-container flex-shrink-0">
+<img class="w-full h-full object-cover object-top transition-transform group-hover:scale-105 duration-300" data-alt="High-fashion female model posing in gradient lilac lavender to deep violet ombre formal suit with heavy scalloped lace borders and embroidered dupatta in an elegant colonnade" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2LFHnI3faHdRAL4RFfBTQstTsjMK8KDHWnQWQWgZvH-7kSALfPZhxbpz1Wn4KNilOA9lwU26qM_2b5dQS20QM8AmLKgFl5NgkVvejKIsn_ODyka23QE4A_7XUkmk5HoJWsRumzgxk9IXyfEjHxygaEP8uNdu3hJCm7cvzUqpXEXfP7xBijn5aSjDH9BNi8JPM1cvk8k-JEVkiZB7xamffW2l6M9hqafRWTxmh8YGS"/>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md font-semibold text-primary leading-snug group-hover:text-primary-container transition-colors">
+                  Lavender Dusk Ombre Formals
+                </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase mt-0.5 tracking-wider">SKU: SAH-2025-LAV09</span>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm font-medium text-primary">Festive Formals</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Ombre Pure Organza &amp; Cutwork</span>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<span class="font-label-lg text-label-lg font-semibold text-primary">PKR 14,800</span>
+</td>
+<td class="py-3 px-space-md align-middle">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-1.5">
+<span class="font-body-sm text-body-sm font-bold text-error">3 Units Left</span>
+<span class="font-label-sm text-label-sm text-error font-medium">(Replenish Alert)</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm opacity-50">XS:0</span>
+<span class="px-1.5 py-0.5 rounded bg-error-container/50 text-on-error-container font-label-sm text-label-sm font-bold">S:1</span>
+<span class="px-1.5 py-0.5 rounded bg-error-container/50 text-on-error-container font-label-sm text-label-sm font-bold">M:2</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm opacity-50">L:0</span>
+</div>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm uppercase font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-error animate-pulse"></span>
+                Low Stock
+              </span>
+</td>
+<td class="py-3 pr-space-md text-right align-middle">
+<div class="flex items-center justify-end gap-1">
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="Edit Silhouette">
+<span class="material-symbols-outlined text-base">edit</span>
+</button>
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="Duplicate SKU">
+<span class="material-symbols-outlined text-base">content_copy</span>
+</button>
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="View Live Atelier Page">
+<span class="material-symbols-outlined text-base">visibility</span>
+</button>
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-error transition-colors" title="Archive">
+<span class="material-symbols-outlined text-base">archive</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 4: Sapphire Royal Blue Organza 3-Pc -->
+<tr class="hover:bg-surface-container-low/60 transition-colors group">
+<td class="py-space-sm pl-space-md pr-space-xs align-middle">
+<input class="product-checkbox w-4 h-4 rounded accent-primary-container cursor-pointer" type="checkbox"/>
+</td>
+<td class="py-3 px-space-xs align-middle">
+<div class="w-12 h-16 rounded-xl overflow-hidden shadow-sm bg-surface-container flex-shrink-0">
+<img alt="Sapphire Royal Blue Organza 3-Pc" class="w-full h-full object-cover object-top transition-transform group-hover:scale-105 duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA48mFYUcP5FeMAWpzXieJ1O4reOHlPXEceBy3CysxuA5FJGI3tR7bXled25Zanv2Sv_dLFzwcHvkVOSkZzIHI60PnVFoiigc8s_FqDlIQNL5tTSNpeYHq4qrtX1hf3BOg1SQxQcu_HIZjtRAjv6I4pUBhuiMELUbiYPOjpn92DgVOzSfeJPRPfKGWS3B37PEF0Z8gvWQ6vjEjmhg5bRnRoL0_JjRLWTNxahLbTZB2-52LVn292gN41oA"/>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md font-semibold text-primary leading-snug group-hover:text-primary-container transition-colors">
+                  Sapphire Royal Blue Organza 3-Pc
+                </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase mt-0.5 tracking-wider">SKU: SAH-2025-BLU11</span>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm font-medium text-primary">Royal Monochromes</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Rich Jacquard &amp; Tissue Silk</span>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<span class="font-label-lg text-label-lg font-semibold text-primary">PKR 16,900</span>
+</td>
+<td class="py-3 px-space-md align-middle">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-1.5">
+<span class="font-body-sm text-body-sm font-semibold text-primary">12 Units</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">XS:1</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">S:4</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">M:4</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">L:2</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">XL:1</span>
+</div>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-secondary-fixed/60 text-on-secondary-fixed font-label-sm text-label-sm uppercase font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                In Stock
+              </span>
+</td>
+<td class="py-3 pr-space-md text-right align-middle">
+<div class="flex items-center justify-end gap-1">
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="Edit Silhouette">
+<span class="material-symbols-outlined text-base">edit</span>
+</button>
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="Duplicate SKU">
+<span class="material-symbols-outlined text-base">content_copy</span>
+</button>
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="View Live Atelier Page">
+<span class="material-symbols-outlined text-base">visibility</span>
+</button>
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-error transition-colors" title="Archive">
+<span class="material-symbols-outlined text-base">archive</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 5: Powder Mint Raw Silk Kurta Set -->
+<tr class="hover:bg-surface-container-low/60 transition-colors group">
+<td class="py-space-sm pl-space-md pr-space-xs align-middle">
+<input class="product-checkbox w-4 h-4 rounded accent-primary-container cursor-pointer" type="checkbox"/>
+</td>
+<td class="py-3 px-space-xs align-middle">
+<div class="w-12 h-16 rounded-xl overflow-hidden shadow-sm bg-surface-container flex-shrink-0">
+<img alt="Powder Mint Raw Silk Kurta Set" class="w-full h-full object-cover object-top transition-transform group-hover:scale-105 duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCGscppjGRdEwfj5BExEEr0Ydqcx7foMZ7VLiig10hQq5iLCMLqyf4qpe3QpHt00zwXTxfMX89-yowZGyJcFNpvKFsbQhlbWu4F9ZGPdfua-4R4DalEeg778Oi1RKgqnA5fw6QRYtCXoIlVJ2zrwXJg3DOAUKD7Z3RB6Cc2oezdBMoMCsHYge9surWSF2tpPjCGdzM8V1v9LE0rRQ89Ad4CM0o6ytmBhVzdX5zAeEHpsK-DEUjOQkHG_w"/>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md font-semibold text-primary leading-snug group-hover:text-primary-container transition-colors">
+                  Powder Mint Raw Silk Kurta Set
+                </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase mt-0.5 tracking-wider">SKU: SAH-2025-MNT03</span>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm font-medium text-primary">Pastel Lawn &amp; Organza</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Pure Lawn &amp; Embroidered Daman</span>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<span class="font-label-lg text-label-lg font-semibold text-primary">PKR 12,500</span>
+</td>
+<td class="py-3 px-space-md align-middle">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-1.5">
+<span class="font-body-sm text-body-sm font-semibold text-primary">35 Units</span>
+<span class="font-label-sm text-label-sm text-secondary font-medium">(High Demand)</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">XS:6</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">S:12</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">M:10</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">L:5</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">XL:2</span>
+</div>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-secondary-fixed/60 text-on-secondary-fixed font-label-sm text-label-sm uppercase font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                In Stock
+              </span>
+</td>
+<td class="py-3 pr-space-md text-right align-middle">
+<div class="flex items-center justify-end gap-1">
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="Edit Silhouette">
+<span class="material-symbols-outlined text-base">edit</span>
+</button>
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="Duplicate SKU">
+<span class="material-symbols-outlined text-base">content_copy</span>
+</button>
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="View Live Atelier Page">
+<span class="material-symbols-outlined text-base">visibility</span>
+</button>
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-error transition-colors" title="Archive">
+<span class="material-symbols-outlined text-base">archive</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 6: Charcoal Slate Hand Block Print 2-Pc -->
+<tr class="hover:bg-surface-container-low/60 transition-colors group">
+<td class="py-space-sm pl-space-md pr-space-xs align-middle">
+<input class="product-checkbox w-4 h-4 rounded accent-primary-container cursor-pointer" type="checkbox"/>
+</td>
+<td class="py-3 px-space-xs align-middle">
+<div class="w-12 h-16 rounded-xl overflow-hidden shadow-sm bg-surface-container flex-shrink-0">
+<img alt="Charcoal Slate Hand Block Print 2-Pc" class="w-full h-full object-cover object-top transition-transform group-hover:scale-105 duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1kTlWw9nMWTmhKzvA4GuWXJCHlw2LFD0H2Ab5ND8SluUY6Ns3fHqaVIKsZd_tNnYH4hkPgJsW3Xe1FAE2b0_XmtKxjTotS54Hvn2e7As3Dv-Rw5KKOhesvm0iYqLsZNWd3JH6jQni494CuHEdO6Q-kJWhX802UgZPuVCw6Z-qbnY5GlPffMphO4nBH9-ZzL3oCGAyPvTd0m-bcCPG6_s3ahMeGWqWwxXpHFftqNQ7Da0YAs4D-EwQ2g"/>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md font-semibold text-primary leading-snug group-hover:text-primary-container transition-colors">
+                  Charcoal Slate Hand Block Print 2-Pc
+                </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase mt-0.5 tracking-wider">SKU: SAH-2025-CHR07</span>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm font-medium text-primary">Daily Luxury Lawn</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Lawn Kurta &amp; Flared Trouser</span>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<span class="font-label-lg text-label-lg font-semibold text-primary">PKR 8,700</span>
+</td>
+<td class="py-3 px-space-md align-middle">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-1.5">
+<span class="font-body-sm text-body-sm font-semibold text-primary">20 Units</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">XS:3</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">S:7</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">M:5</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">L:3</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container font-label-sm text-label-sm">XL:2</span>
+</div>
+</div>
+</td>
+<td class="py-3 px-space-md align-middle">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-secondary-fixed/60 text-on-secondary-fixed font-label-sm text-label-sm uppercase font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                In Stock
+              </span>
+</td>
+<td class="py-3 pr-space-md text-right align-middle">
+<div class="flex items-center justify-end gap-1">
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="Edit Silhouette">
+<span class="material-symbols-outlined text-base">edit</span>
+</button>
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="Duplicate SKU">
+<span class="material-symbols-outlined text-base">content_copy</span>
+</button>
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="View Live Atelier Page">
+<span class="material-symbols-outlined text-base">visibility</span>
+</button>
+<button class="p-1.5 rounded-xl hover:bg-surface-container text-on-surface-variant hover:text-error transition-colors" title="Archive">
+<span class="material-symbols-outlined text-base">archive</span>
+</button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Batch Operations Floating Tray & Pagination Footer -->
+<div class="p-space-md bg-surface-container-low flex flex-col md:flex-row items-center justify-between gap-space-md">
+<!-- Batch Actions Trigger Bar -->
+<div class="flex items-center gap-space-xs flex-wrap" id="batchActionTray">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">
+<span class="font-bold text-primary" id="selectedCount">0</span> Selected
+        </span>
+<button class="px-3 py-1.5 rounded-xl bg-surface-container-lowest text-primary font-label-sm text-label-sm uppercase tracking-wider hover:bg-surface-variant shadow-sm transition-all disabled:opacity-40" disabled="" id="btnBatchDiscount">
+          Apply Discount
+        </button>
+<button class="px-3 py-1.5 rounded-xl bg-surface-container-lowest text-primary font-label-sm text-label-sm uppercase tracking-wider hover:bg-surface-variant shadow-sm transition-all disabled:opacity-40" disabled="" id="btnBatchCollection">
+          Change Capsule
+        </button>
+<button class="px-3 py-1.5 rounded-xl bg-surface-container-lowest text-error font-label-sm text-label-sm uppercase tracking-wider hover:bg-error-container shadow-sm transition-all disabled:opacity-40" disabled="" id="btnBatchDelete">
+          Bulk Archive
+        </button>
+</div>
+<!-- Pagination Details & Controls -->
+<div class="flex items-center gap-space-md">
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+          Showing <span class="font-semibold text-primary">1 - 6</span> of <span class="font-semibold text-primary">18</span> designs
+        </span>
+<div class="flex items-center gap-1">
+<button class="p-1.5 rounded-xl bg-surface-container-lowest text-on-surface-variant hover:text-primary hover:bg-surface-container disabled:opacity-30 transition-colors" disabled="" title="Previous Page">
+<span class="material-symbols-outlined text-base">chevron_left</span>
+</button>
+<button class="w-8 h-8 rounded-xl bg-primary-container text-on-primary font-label-sm text-label-sm font-bold flex items-center justify-center shadow-sm">
+            1
+          </button>
+<button class="w-8 h-8 rounded-xl bg-surface-container-lowest hover:bg-surface-container text-primary font-label-sm text-label-sm font-semibold flex items-center justify-center transition-colors">
+            2
+          </button>
+<button class="w-8 h-8 rounded-xl bg-surface-container-lowest hover:bg-surface-container text-primary font-label-sm text-label-sm font-semibold flex items-center justify-center transition-colors">
+            3
+          </button>
+<button class="p-1.5 rounded-xl bg-surface-container-lowest text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" title="Next Page">
+<span class="material-symbols-outlined text-base">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Atelier Quick Stats & Textile Craft Ribbon -->
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-[0_4px_20px_rgba(92,58,33,0.03)] grid grid-cols-1 md:grid-cols-3 gap-space-lg items-center">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-lg">palette</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg font-semibold text-primary uppercase">Hand-Dyed Swatches</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Each raw silk and chiffon piece is dye-matched to SAHARISH master pantone swatches.</p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-lg">straighten</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg font-semibold text-primary uppercase">Custom Sizing Concierge</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Bespoke stitched adjustments currently queued: 8 orders in Master Tailor studio.</p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-lg">local_shipping</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg font-semibold text-primary uppercase">Global DHL Couture Dispatch</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Same-day tracked dispatches from Lahore flagship boutique across GCC, UK, and USA.</p>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Interactive Batch Checkbox Behavior & Dynamic Row Counter
+  const selectAll = document.getElementById('selectAllCheckbox');
+  const rowCheckboxes = document.querySelectorAll('.product-checkbox');
+  const selectedCountLabel = document.getElementById('selectedCount');
+  const batchButtons = [
+    document.getElementById('btnBatchDiscount'),
+    document.getElementById('btnBatchCollection'),
+    document.getElementById('btnBatchDelete')
+  ];
+
+  function updateBatchState() {
+    const checkedCount = Array.from(rowCheckboxes).filter(cb => cb.checked).length;
+    selectedCountLabel.textContent = checkedCount;
+    
+    batchButtons.forEach(btn => {
+      if (btn) btn.disabled = checkedCount === 0;
+    });
+
+    if (selectAll) {
+      selectAll.checked = checkedCount === rowCheckboxes.length && rowCheckboxes.length > 0;
+      selectAll.indeterminate = checkedCount > 0 && checkedCount < rowCheckboxes.length;
+    }
+  }
+
+  if (selectAll) {
+    selectAll.addEventListener('change', function() {
+      rowCheckboxes.forEach(cb => {
+        cb.checked = selectAll.checked;
+      });
+      updateBatchState();
+    });
+  }
+
+  rowCheckboxes.forEach(cb => {
+    cb.addEventListener('change', updateBatchState);
+  });
+
+  // Client-side quick filter simulation for SKU and Title
+  const searchInput = document.getElementById('productSearchInput');
+  const tableRows = document.querySelectorAll('#catalogTableBody tr');
+
+  if (searchInput) {
+    searchInput.addEventListener('input', function(e) {
+      const term = e.target.value.toLowerCase().trim();
+      tableRows.forEach(row => {
+        const text = row.innerText.toLowerCase();
+        if (text.includes(term)) {
+          row.style.display = '';
+        } else {
+          row.style.display = 'none';
+        }
+      });
+    });
+  }
+</script></main></div></body></html>

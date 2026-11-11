@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#5C3A21" rx="96"/>
+  <rect x="24" y="24" width="464" height="464" fill="none" stroke="#C49A6C" stroke-width="4" rx="76" stroke-opacity="0.4"/>
+  <!-- Shield Outline -->
+  <path d="M 180 110 L 332 110 L 332 230 C 332 290 256 340 256 340 C 256 340 180 290 180 230 Z" 
+        fill="none" stroke="#FAF7F2" stroke-width="12" stroke-linejoin="round"/>
+  <!-- Elegant 'S' monogram -->
+  <text x="256" y="240" font-family="'Playfair Display', Georgia, serif" font-size="120" font-weight="600" fill="#FAF7F2" text-anchor="middle" dominant-baseline="middle">S</text>
+  <!-- Brand text -->
+  <text x="256" y="390" font-family="'Playfair Display', Georgia, serif" font-size="44" font-weight="700" letter-spacing="8" fill="#FAF7F2" text-anchor="middle">SAHARISH</text>
+  <!-- Subtitle -->
+  <text x="256" y="435" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="6" fill="#C49A6C" text-anchor="middle">ESTD ✿ 2023</text>
+</svg>

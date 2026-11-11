@@ -1,0 +1,6 @@
+{
+  "name": "SAHARISH - Luxury Pret & Couture",
+  "description": "Official SAHARISH ladies' clothing luxury pret and couture boutique featuring customer authentication, WhatsApp and SMS OTP verification, two admin notification channels, and Progressive Web App installation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

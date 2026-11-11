@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Offline | SAHARISH Pret & Couture</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300..700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #fcf9f4;
+      color: #1c1c19;
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      box-sizing: border-box;
+      padding: 24px;
+    }
+    .card {
+      max-width: 480px;
+      background: #ffffff;
+      border: 1px solid #ede3da;
+      border-radius: 16px;
+      padding: 40px 32px;
+      box-shadow: 0 10px 30px -4px rgba(92, 58, 33, 0.08);
+    }
+    .logo-img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(92, 58, 33, 0.15);
+    }
+    h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      color: #5c3a21;
+      font-size: 28px;
+      margin: 0 0 10px 0;
+    }
+    p {
+      color: #50443d;
+      font-size: 15px;
+      line-height: 1.6;
+      margin: 0 0 24px 0;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #5c3a21;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 12px 28px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background-color: #7c563b;
+    }
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #c49a6c;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    .pulse {
+      width: 8px;
+      height: 8px;
+      background: #c49a6c;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="/assets/aistudio/channels4_profile_77cc11c8.jpg" alt="SAHARISH" class="logo-img" />
+    <div class="status"><span class="pulse"></span> Offline Mode</div>
+    <h1>You are currently offline</h1>
+    <p>Please check your internet connection to place orders, verify WhatsApp OTP, or sync with our live boutique atelier. Cached collections remain accessible.</p>
+    <a href="/" class="btn" onclick="window.location.reload(); return false;">Reconnect to Boutique</a>
+  </div>
+</body>
+</html>
